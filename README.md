@@ -10,4 +10,4 @@ Install the Arduino IDE, and then download the SimpleHOTP library from the IDE l
 For transmitter programming, you don't have any changes to do (except the key, of course). Just plug in your board, and upload the code.
 
 # Receiver side
-Change the `#define TX_BOARD` line (near line 32) with `#define RX_BOARD`. Then compile, and upload to the another board.
+Change the `#define TX_BOARD` line (near line 32) to `#define RX_BOARD`. Then compile, and upload to the another board.
